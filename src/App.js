@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import About from './About'
-import Nav from 'react-dom'
+import Nav from './Nav'
 export class App extends Component {
   render() {
     return (
