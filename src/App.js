@@ -13,11 +13,9 @@ export class App extends Component {
     <Router>
       <div className="App">
         <NavBar />
-        <About />
-        <TV />
          <Switch>
-           <Route exact path="/listen" component={Listen}  />
-           <Route exact path="/contact" component={Contact}  />
+           <Route exact path="/listen" component= {Listen}/>
+           <Route exact path="/contact" component= {Contact}  />
          </Switch>
       </div>
     </Router>
