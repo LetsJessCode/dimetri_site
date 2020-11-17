@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-
+import { GrInstagram } from 'react-icons/gr'
+import { HiOutlineMail } from 'react-icons/hi'
 export class Contact extends Component {
     render() {
         return (
             <div>
                 <h1>Contact Info</h1>
-                <li>
-                    instagram
-                </li>
-                <li>
+                
+                  <a href="https://www.instagram.com/thetonywinner/" target="_blank"><GrInstagram /></a>  <br />
+                
+                
                     email
-                </li>
+                
             </div>
         )
     }

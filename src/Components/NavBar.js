@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
 import { Link, animateScroll as scroll } from "react-scroll";
 import Dimetri from '../Img/Dimetri.jpg'
 
@@ -20,9 +19,10 @@ export class NavBar extends Component {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500}> Bio </Link> <br />
+                    duration={500}> Bio </Link> 
+                    <br />
 
-                    <Link activeClass="active"
+                <Link activeClass="active"
                     to="film"
                     spy={true}
                     smooth={true}
@@ -30,24 +30,21 @@ export class NavBar extends Component {
                     duration={500}> TV/Film </Link> 
                     <br />
 
-                    <Link activeClass="active"
+                <Link activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}> Contact </Link> 
                     <br />
-                    
-                    <Link activeClass="active"
+
+                <Link activeClass="active"
                     to="listen"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}> Listen </Link> 
                     <br />
-                {/* <Link >TV/Film /></Link>><br /> */}
-                {/* <NavLink to="/contact">Contact</NavLink> <br /> */}
-                {/* <NavLink to="/listen">Listen</NavLink> <br /> */}
             </ul>
         </div>
     </nav>
